@@ -1,8 +1,8 @@
 {
 	
-	"workspaceFolder": "/home/nguyen/workspace/java",
-	"workspaceMount": "source=/home/nguyen/workspace/java/src/,target=/home/nguyen/workspace/java/target/,type=bind,consistency=cached",
-	"name": "Java",
+	//"workspaceFolder": "/home/nguyen/workspace/java",
+	//"workspaceMount": "source=/home/nguyen/workspace/java/,target=/home/nguyen/workspace/java/,type=bind,consistency=cached",
+	"name": "Java Development in Container -Local Host",
 	"build": {
 		"dockerfile": "Dockerfile",
 		"args": {
