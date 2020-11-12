@@ -1,5 +1,5 @@
-FROM adoptopenjdk/openjdk14
-#adoptopenjdk/openjdk13  
+FROM adoptopenjdk/openjdk13
+#adoptopenjdk/openjdk14  
 #openjdk:11-jdk
 
 # This Dockerfile adds a non-root user with sudo access. Use the "remoteUser"
