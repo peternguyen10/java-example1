@@ -22,8 +22,9 @@ Restart daemon:
 sudo systemctl restart sshd
 
 4.  copy the public key to server from windows box:
+scp ~/.ssh/id_rsa.pub [linux_user]@[linux_IP/linux_hostname]:~/.ssh/authorized_keys
 
-ssh-copy-id -i  id_rsa.pub nguyen@192.168.1.39:~/.ssh   (username@host_ip_address)
+** this one for linux:  ssh-copy-id -i  id_rsa.pub nguyen@192.168.1.39:~/.ssh   (username@host_ip_address)
 
 Server will prompt for password
 
