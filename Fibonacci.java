@@ -3,7 +3,7 @@ public class Fibonacci {
     public static void main(String[] args) {
 
         int n = 10, t1 = 0, t2 = 1;
-        System.out.println("running Fibonacci number demo in container running on remote host openjdk");
+        System.out.println("running Fibonacci number demo in container running on remote host openjdk14");
        
         System.out.print("First " + n + " terms:.");
 
